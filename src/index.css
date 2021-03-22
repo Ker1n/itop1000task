@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+}
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.time {
+  font-family: "Share Tech Mono", monospace;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+.timers__buttons {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -60%);
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 148px;
+  letter-spacing: 0.05em;
+  font-size: 60px;
+  cursor: pointer;
+  margin: 0px 10px;
+  color: #ffffff;
+}
+.btn:hover {
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
